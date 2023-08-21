@@ -11,66 +11,136 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "文章"
-  pageRef = "posts"
+  name = "广场"
   weight = 10
+
+[[main]]
+  name = "明星"
+  weight = 20
+
+[[main]]
+  name = "最不受欢迎的男明星"
+  parent = "明星"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "最不受欢迎的女明星"
+  parent = "明星"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "媒体"
+  weight = 30
+
+[[main]]
+  name = "最难听的歌曲"
+  parent = "媒体"
+  pageRef = "posts"
+  weight = 30
+
+[[main]]
+  name = "最难看的电影"
+  parent = "媒体"
+  pageRef = "posts"
+  weight = 30
+
+[[main]]
+  name = "生活"
+  weight = 40
+
+[[main]]
+  name = "最让人沮丧的新闻"
+  parent = "生活"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "最不友好的旅游城市"
+  parent = "生活"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "最糟糕的电子游戏"
+  parent = "生活"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "最痛苦的病症"
+  parent = "生活"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "食物"
+  weight = 50
+
+[[main]]
+  name = "最难吃的水果"
+  parent = "食物"
+  pageRef = "posts"
+  weight = 50
+
+[[main]]
+  name = "最难吃的蔬菜"
+  parent = "食物"
+  pageRef = "posts"
+  weight = 50
+
+[[main]]
+  name = "最难吃的地方小吃"
+  parent = "食物"
+  pageRef = "posts"
+  weight = 50
+
+[[main]]
+  name = "博客"
+  pageRef = "posts"
+  weight = 60
+
+# [[subnavigation]]
+#   name = "一个有趣的话题"
+#   pageRef = "tags/interesting-topic"
+#   weight = 20
+
+# [[subnavigation]]
+#   name = "一个很棒的分类"
+#   pre = "github"
+#   pageRef = "categories/awesome"
+#   weight = 20
 
 [[main]]
   name = "案例"
   pageRef = "samples"
-  weight = 20
+  weight = 100
 
 [[main]]
   name = "文档"
   pageRef = "docs"
-  weight = 20
+  weight = 100
 
 [[main]]
   name = "例子"
   pageRef = "examples"
-  weight = 20
-
-[[main]]
-  name = "父菜单"
-  weight = 20
-
-[[main]]
-  name = "子菜单 1"
-  parent = "父菜单"
-  pageRef = "posts"
-  weight = 20
-
-[[main]]
-  name = "子菜单 2"
-  parent = "父菜单"
-  pageRef = "posts"
-  weight = 20
-
-[[subnavigation]]
-  name = "一个有趣的话题"
-  pageRef = "tags/interesting-topic"
-  weight = 10
-
-[[subnavigation]]
-  name = "一个很棒的分类"
-  pre = "github"
-  pageRef = "categories/awesome"
-  weight = 20
+  weight = 100
 
 [[main]]
   name = "指导"
   pageRef = "guides"
-  weight = 20
+  weight = 100
 
 [[main]]
    name = "测试"
    pageRef = "pagtest"
-   weight = 20
+   weight = 100
 
-[[main]]
-   name = "用户"
-   pageRef = "users"
-   weight = 20
+# [[main]]
+#    name = "用户"
+#    pageRef = "users"
+#    weight = 20
 
 
 # -- Footer Menu --
