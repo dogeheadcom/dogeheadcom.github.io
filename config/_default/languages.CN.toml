@@ -1,13 +1,13 @@
-languageCode = "en"
-languageName = "English"
+languageCode = "CN"
+languageName = "Chinese_Simple"
 weight = 1
 title = "DOGEHEAD"
 
 [params]
-  displayName = "EN"
-  isoCode = "en"
+  displayName = "CN"
+  isoCode = "CN"
   rtl = false
-  dateFormat = "2 January 2006"
+  dateFormat = "2006年3月2日"
   logo = "img/author_avatar.png"
   secondaryLogo = "img/author_avatar.png"
   description = "My awesome website"
@@ -15,9 +15,9 @@ title = "DOGEHEAD"
 
 [author]
   name = "DOGEHEAD"
-  image = "img/dogehead.png"
+  image = "img/author_avatar.png"
   headline = "[doge] 保命"
-  bio = "一个大胆选择不喜欢的网站"
+  bio = "一个可以大胆选择不喜欢的网站"
   links = [
     { email = "mailto:hello@your_domain.com" },
     { link = "https://link-to-some-website.com/" },

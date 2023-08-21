@@ -1,5 +1,5 @@
 global:
-  language: "🇨🇳"
+  language: "CN"
 
 article:
   anchor_label: "锚点"
@@ -34,7 +34,7 @@ error:
 footer:
   dark_appearance: "切换为深色模式"
   light_appearance: "切换为浅色模式"
-  powered_by: "由 {{ .Hugo }} &amp; {{ .Theme }} 强力驱动"
+  powered_by: "由 {{ .Hugo }} 强力驱动"
 
 list:
   externalurl_title: "链接到外部网站"

@@ -11,54 +11,54 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Blog"
+  name = "文章"
   pageRef = "posts"
   weight = 10
 
 [[main]]
-  name = "Samples"
+  name = "案例"
   pageRef = "samples"
   weight = 20
 
 [[main]]
-  name = "Docs"
+  name = "文档"
   pageRef = "docs"
   weight = 20
 
 [[main]]
-  name = "Parent"
+  name = "父菜单"
   weight = 20
 
 [[main]]
-  name = "example sub-menu 1"
-  parent = "Parent"
+  name = "子菜单 1"
+  parent = "父菜单"
   pageRef = "posts"
   weight = 20
 
 [[main]]
-  name = "example sub-menu 2"
-  parent = "Parent"
+  name = "子菜单 2"
+  parent = "父菜单"
   pageRef = "posts"
   weight = 20
 
 [[subnavigation]]
-  name = "An interesting topic"
+  name = "一个有趣的话题"
   pageRef = "tags/interesting-topic"
   weight = 10
 
 [[subnavigation]]
-  name = "My Awesome Category"
+  name = "一个很棒的分类"
   pre = "github"
   pageRef = "categories/awesome"
   weight = 20
 
 [[main]]
-  name = "Categories"
+  name = "分类"
   pageRef = "categories"
   weight = 20
 
 [[main]]
-  name = "Tags"
+  name = "标签"
   pageRef = "tags"
   weight = 30
 
@@ -69,11 +69,11 @@
 
 
 [[footer]]
-  name = "Tags"
+  name = "标签"
   pageRef = "tags"
   weight = 10
 
 [[footer]]
-  name = "Categories"
+  name = "分类"
   pageRef = "categories"
   weight = 20

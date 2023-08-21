@@ -3,8 +3,9 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://dogehead.com/"
-defaultContentLanguage = "en"
+baseURL = "https://dogehead.com"
+defaultContentLanguage = "CN"
+contentDir = "content"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
