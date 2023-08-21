@@ -31,7 +31,13 @@
   weight = 20
 
 [[main]]
-  name = "演技最差明星"
+  name = "演技最差的明星"
+  parent = "明星"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "最会炒作的明星"
   parent = "明星"
   pageRef = "posts"
   weight = 20
@@ -105,7 +111,31 @@
   weight = 40
 
 [[main]]
+  name = "最糟糕的房地产商"
+  parent = "生活"
+  pageRef = "posts"
+  weight = 40
+
+[[main]]
   name = "最丑的汽车"
+  parent = "生活"
+  pageRef = "posts"
+  weight = 40
+
+[[main]]
+  name = "最差劲的互联网平台"
+  parent = "生活"
+  pageRef = "posts"
+  weight = 40
+
+[[main]]
+  name = "最没用的学科"
+  parent = "生活"
+  pageRef = "posts"
+  weight = 40
+
+[[main]]
+  name = "最糗的事"
   parent = "生活"
   pageRef = "posts"
   weight = 40
@@ -127,7 +157,7 @@
   weight = 50
 
 [[main]]
-  name = "最难吃的主食"
+  name = "最不能接受的食物"
   parent = "食物"
   pageRef = "posts"
   weight = 50
