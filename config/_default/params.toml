@@ -20,9 +20,9 @@ disableImageOptimization = true
 defaultBackgroundImage = "img/ocean.jpg" # used as default for background images 
 defaultFeaturedImage = "img/ocean.jpg" # used as default for featured images in all articles
 
-# highlightCurrentMenuArea = true
-# smartTOC = true
-# smartTOCHideUnfocusedChildren = true
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = true
 
 [header]
   layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
@@ -38,7 +38,7 @@ defaultFeaturedImage = "img/ocean.jpg" # used as default for featured images in 
   layout = "background" # valid options: page, profile, hero, card, background, custom
   # homepageImage = "img/ocean.jpg" # used in: hero, and card
   showRecent = true
-  showRecentItems = 6
+  showRecentItems = 9
   showMoreLink = true
   showMoreLinkDest = "/posts"
   cardView = true
@@ -50,7 +50,7 @@ defaultFeaturedImage = "img/ocean.jpg" # used as default for featured images in 
   showViews = true
   showLikes = true
   showDateUpdated = false
-  showAuthor = true
+  showAuthor = false
   showHero = false
   heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground

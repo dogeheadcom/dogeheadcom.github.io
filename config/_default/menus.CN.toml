@@ -26,6 +26,11 @@
   weight = 20
 
 [[main]]
+  name = "例子"
+  pageRef = "examples"
+  weight = 20
+
+[[main]]
   name = "父菜单"
   weight = 20
 
@@ -53,14 +58,19 @@
   weight = 20
 
 [[main]]
-  name = "分类"
-  pageRef = "categories"
+  name = "指导"
+  pageRef = "guides"
   weight = 20
 
 [[main]]
-  name = "标签"
-  pageRef = "tags"
-  weight = 30
+   name = "测试"
+   pageRef = "pagtest"
+   weight = 20
+
+[[main]]
+   name = "用户"
+   pageRef = "users"
+   weight = 20
 
 
 # -- Footer Menu --
@@ -73,7 +83,7 @@
   pageRef = "tags"
   weight = 10
 
-[[footer]]
-  name = "分类"
-  pageRef = "categories"
-  weight = 20
+# [[footer]]
+#   name = "分类"
+#   pageRef = "categories"
+#   weight = 20

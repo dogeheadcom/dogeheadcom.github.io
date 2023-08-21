@@ -1,6 +1,6 @@
 ---
-title: "Samples"
-description: "See what's possible with Blowfish."
+title: "案例"
+description: "看看用DOGEHEAD能做什么"
 
 cascade:
   showEdit: false
@@ -9,7 +9,7 @@ cascade:
 ---
 
 {{< lead >}}
-Blowfish brings your content to life. :heart_eyes:
+看看用DOGEHEAD能做什么。 :heart_eyes:
 {{< /lead >}}
 
 This section contains some demo pages that show how Blowfish renders different types of content. You can also see an example [taxonomy listing]({{< ref "tags" >}}) page.

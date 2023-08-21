@@ -16,8 +16,8 @@ title = "DOGEHEAD"
 [author]
   name = "DOGEHEAD"
   image = "img/author_avatar.png"
-  headline = "[doge] 保命"
-  bio = "一个可以大胆选择不喜欢的网站"
+  headline = "[/doge] 保命"
+  bio = "一个你可以大胆选择不喜欢的网站，毕竟我们有[/doge]保命。"
   links = [
     { email = "mailto:hello@your_domain.com" },
     { link = "https://link-to-some-website.com/" },

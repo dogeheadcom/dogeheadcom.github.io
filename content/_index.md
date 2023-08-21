@@ -1,9 +1,9 @@
 ---
-title: "Welcome to Blowfish! :tada:"
-description: "This is a demo of the Blowfish theme for Hugo."
+title: "欢迎来到DOGEHEAD :tada:"
+description: "一个你可以大胆选择不喜欢的网站，毕竟我们有[/doge]保命。"
 ---
 
-This is a demo site built entirely using Blowfish. It also contains a complete set of [theme documentation]({{< ref "docs" >}}). Blowfish is flexible and is great for both static page-based content (like this demo) or a traditional blog with a feed of recent posts.
+更准确的来说， dogehead.com 是一个对你不喜欢的事物投票网站，如何使用请查看 [theme documentation]({{< ref "docs" >}}). 我们并不是宣扬消极与悲观，而是希望给大家一个表达不喜欢的途径。
 
 <div class="flex px-4 py-2 mb-8 text-base rounded-md bg-primary-100 dark:bg-primary-900">
   <span class="flex items-center ltr:pr-3 rtl:pl-3 text-primary-400">
@@ -20,4 +20,4 @@ This is a demo site built entirely using Blowfish. It also contains a complete s
   </span>
 </div>
 
-Explore the [sample pages]({{< ref "samples" >}}) to get a feel for what Blowfish can do. If you like what you see, check out the project on <a target="_blank" href="https://github.com/nunocoracao/blowfish">Github</a> or read the [Installation guide]({{< ref "docs/installation" >}}) to get started.
+探索更多 [sample pages]({{< ref "samples" >}}) 如果你喜欢，你可以点击这里 <a target="_blank" href="https://github.com/nunocoracao/blowfish">Github</a> 或者阅读 [Installation guide]({{< ref "docs/installation" >}}) 来开始投票。
