@@ -31,6 +31,18 @@
   weight = 20
 
 [[main]]
+  name = "演技最差的明星"
+  parent = "明星"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "最会炒作的明星"
+  parent = "明星"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
   name = "媒体"
   weight = 30
 
@@ -47,6 +59,12 @@
   weight = 30
 
 [[main]]
+  name = "最糟糕的综艺节目"
+  parent = "媒体"
+  pageRef = "posts"
+  weight = 30
+
+[[main]]
   name = "生活"
   weight = 40
 
@@ -54,25 +72,73 @@
   name = "最让人沮丧的新闻"
   parent = "生活"
   pageRef = "posts"
-  weight = 20
+  weight = 40
 
 [[main]]
   name = "最不友好的旅游城市"
   parent = "生活"
   pageRef = "posts"
-  weight = 20
+  weight = 40
+
+[[main]]
+  name = "最糟糕的景点"
+  parent = "生活"
+  pageRef = "posts"
+  weight = 40
 
 [[main]]
   name = "最糟糕的电子游戏"
   parent = "生活"
   pageRef = "posts"
-  weight = 20
+  weight = 40
 
 [[main]]
   name = "最痛苦的病症"
   parent = "生活"
   pageRef = "posts"
-  weight = 20
+  weight = 40
+
+[[main]]
+  name = "最苦逼的职业"
+  parent = "生活"
+  pageRef = "posts"
+  weight = 40
+
+[[main]]
+  name = "最坑的大学专业"
+  parent = "生活"
+  pageRef = "posts"
+  weight = 40
+
+[[main]]
+  name = "最糟糕的房地产商"
+  parent = "生活"
+  pageRef = "posts"
+  weight = 40
+
+[[main]]
+  name = "最丑的汽车"
+  parent = "生活"
+  pageRef = "posts"
+  weight = 40
+
+[[main]]
+  name = "最差劲的互联网平台"
+  parent = "生活"
+  pageRef = "posts"
+  weight = 40
+
+[[main]]
+  name = "最没用的学科"
+  parent = "生活"
+  pageRef = "posts"
+  weight = 40
+
+[[main]]
+  name = "最糗的事"
+  parent = "生活"
+  pageRef = "posts"
+  weight = 40
 
 [[main]]
   name = "食物"
@@ -86,6 +152,12 @@
 
 [[main]]
   name = "最难吃的蔬菜"
+  parent = "食物"
+  pageRef = "posts"
+  weight = 50
+
+[[main]]
+  name = "最不能接受的食物"
   parent = "食物"
   pageRef = "posts"
   weight = 50
