@@ -115,12 +115,12 @@ smartTOCHideUnfocusedChildren = true
   cardViewScreenWidth = false
 
 [firebase]
-  apiKey: "AIzaSyAlx1iPaqUSJqQf0zMrT3FlVQinA2OXC-Y",
-  authDomain: "dogeheadcom.firebaseapp.com",
-  projectId: "dogeheadcom",
-  storageBucket: "dogeheadcom.appspot.com",
-  messagingSenderId: "969567048243",
-  appId: "1:969567048243:web:a5701e26080f75d2398946",
+  apiKey: "AIzaSyAlx1iPaqUSJqQf0zMrT3FlVQinA2OXC-Y"
+  authDomain: "dogeheadcom.firebaseapp.com"
+  projectId: "dogeheadcom"
+  storageBucket: "dogeheadcom.appspot.com"
+  messagingSenderId: "969567048243"
+  appId: "1:969567048243:web:a5701e26080f75d2398946"
   measurementId: "G-JPV8LWH3YP"
 
 [fathomAnalytics]
