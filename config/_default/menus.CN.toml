@@ -231,9 +231,25 @@
   weight = 70
 
 [[main]]
-  name = "博客"
+  name = "历史"
+  weight = 80
+
+[[main]]
+  name = "负面影响最大的帝王"
+  parent = "历史"
   pageRef = "posts"
   weight = 80
+
+[[main]]
+  name = "古代历史上最愚蠢的人"
+  parent = "历史"
+  pageRef = "posts"
+  weight = 80
+
+[[main]]
+  name = "博客"
+  pageRef = "posts"
+  weight = 90
 
 # [[subnavigation]]
 #   name = "一个有趣的话题"
