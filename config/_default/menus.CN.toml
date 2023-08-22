@@ -21,25 +21,43 @@
 [[main]]
   name = "最不受欢迎的男明星"
   parent = "明星"
-  pageRef = "posts"
+  pageRef = "star/most-annoying-men"
   weight = 20
 
 [[main]]
   name = "最不受欢迎的女明星"
   parent = "明星"
-  pageRef = "posts"
+  pageRef = "star/most-annoying-women"
   weight = 20
 
 [[main]]
   name = "演技最差的明星"
   parent = "明星"
-  pageRef = "posts"
+  pageRef = "star/worst-acting"
+  weight = 20
+
+[[main]]
+  name = "烂片之王（演员版）"
+  parent = "明星"
+  pageRef = "star/king-of-bad-movies"
+  weight = 20
+
+[[main]]
+  name = "烂片之王（导演版）"
+  parent = "明星"
+  pageRef = "star/king-director-of-bad-movies"
+  weight = 20
+
+[[main]]
+  name = "唱歌最难听的明星"
+  parent = "明星"
+  pageRef = "star/worst-singing"
   weight = 20
 
 [[main]]
   name = "最会炒作的明星"
   parent = "明星"
-  pageRef = "posts"
+  pageRef = "star/hype"
   weight = 20
 
 [[main]]
@@ -228,30 +246,30 @@
 #   pageRef = "categories/awesome"
 #   weight = 20
 
-[[main]]
-  name = "案例"
-  pageRef = "samples"
-  weight = 100
+# [[main]]
+#   name = "案例"
+#   pageRef = "samples"
+#   weight = 100
 
-[[main]]
-  name = "文档"
-  pageRef = "docs"
-  weight = 100
+# [[main]]
+#   name = "文档"
+#   pageRef = "docs"
+#   weight = 100
 
-[[main]]
-  name = "例子"
-  pageRef = "examples"
-  weight = 100
+# [[main]]
+#   name = "例子"
+#   pageRef = "examples"
+#   weight = 100
 
-[[main]]
-  name = "指导"
-  pageRef = "guides"
-  weight = 100
+# [[main]]
+#   name = "指导"
+#   pageRef = "guides"
+#   weight = 100
 
-[[main]]
-   name = "测试"
-   pageRef = "pagtest"
-   weight = 100
+# [[main]]
+#    name = "测试"
+#    pageRef = "pagtest"
+#    weight = 100
 
 # [[main]]
 #    name = "用户"
