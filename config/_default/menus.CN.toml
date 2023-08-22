@@ -87,6 +87,30 @@
   weight = 40
 
 [[main]]
+  name = "最想卸载的APP"
+  parent = "生活"
+  pageRef = "posts"
+  weight = 40
+
+[[main]]
+  name = "最难以接受的睡觉习惯"
+  parent = "生活"
+  pageRef = "posts"
+  weight = 40
+
+[[main]]
+  name = "最难以接受的动物表演"
+  parent = "生活"
+  pageRef = "posts"
+  weight = 40
+
+[[main]]
+  name = "最难以接受熊孩子行为"
+  parent = "生活"
+  pageRef = "posts"
+  weight = 40
+
+[[main]]
   name = "最糟糕的电子游戏"
   parent = "生活"
   pageRef = "posts"
@@ -94,24 +118,6 @@
 
 [[main]]
   name = "最痛苦的病症"
-  parent = "生活"
-  pageRef = "posts"
-  weight = 40
-
-[[main]]
-  name = "最苦逼的职业"
-  parent = "生活"
-  pageRef = "posts"
-  weight = 40
-
-[[main]]
-  name = "最坑的大学专业"
-  parent = "生活"
-  pageRef = "posts"
-  weight = 40
-
-[[main]]
-  name = "最糟糕的房地产商"
   parent = "生活"
   pageRef = "posts"
   weight = 40
@@ -129,49 +135,87 @@
   weight = 40
 
 [[main]]
-  name = "最没用的学科"
+  name = "最尴尬的事"
   parent = "生活"
   pageRef = "posts"
   weight = 40
 
 [[main]]
-  name = "最糗的事"
-  parent = "生活"
+  name = "职业"
+  weight = 50
+
+[[main]]
+  name = "最苦逼的职业"
+  parent = "职业"
   pageRef = "posts"
-  weight = 40
+  weight = 50
+
+[[main]]
+  name = "最坑的大学专业"
+  parent = "职业"
+  pageRef = "posts"
+  weight = 50
+
+[[main]]
+  name = "最糟糕的房地产商"
+  parent = "职业"
+  pageRef = "posts"
+  weight = 50
+
+[[main]]
+  name = "最没用的学科"
+  parent = "职业"
+  pageRef = "posts"
+  weight = 50
 
 [[main]]
   name = "食物"
-  weight = 50
+  weight = 60
 
 [[main]]
   name = "最难吃的水果"
   parent = "食物"
   pageRef = "posts"
-  weight = 50
+  weight = 60
 
 [[main]]
   name = "最难吃的蔬菜"
   parent = "食物"
   pageRef = "posts"
-  weight = 50
+  weight = 60
 
 [[main]]
   name = "最不能接受的食物"
   parent = "食物"
   pageRef = "posts"
-  weight = 50
+  weight = 60
 
 [[main]]
   name = "最难吃的地方小吃"
   parent = "食物"
   pageRef = "posts"
-  weight = 50
+  weight = 60
+
+[[main]]
+  name = "情感"
+  weight = 70
+
+[[main]]
+  name = "最难以接受的男朋友行为"
+  parent = "情感"
+  pageRef = "posts"
+  weight = 70
+
+[[main]]
+  name = "最难以接受的女朋友行为"
+  parent = "情感"
+  pageRef = "posts"
+  weight = 70
 
 [[main]]
   name = "博客"
   pageRef = "posts"
-  weight = 60
+  weight = 80
 
 # [[subnavigation]]
 #   name = "一个有趣的话题"
