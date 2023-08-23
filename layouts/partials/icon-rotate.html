@@ -1,0 +1,6 @@
+{{ $icon := resources.Get (print "icons/" . ".svg") }}
+{{ if $icon }}
+  <span class="relative block icon" style="transform: rotate(180deg);">
+    {{ $icon.Content | safeHTML }}
+  </span>
+{{ end }}
