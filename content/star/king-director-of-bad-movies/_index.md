@@ -8,6 +8,7 @@ cascade:
   showDate: false
   showAuthor: false
   invertPagination: true
+  tableViews: true
 ---
 
 {{< lead >}}

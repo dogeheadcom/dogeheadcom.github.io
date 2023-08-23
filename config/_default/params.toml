@@ -87,6 +87,7 @@ smartTOCHideUnfocusedChildren = true
   showCards = false
   groupByYear = false
   cardView = true
+  tableViews = false
   cardViewScreenWidth = false
   constrainItemsWidth = false
 

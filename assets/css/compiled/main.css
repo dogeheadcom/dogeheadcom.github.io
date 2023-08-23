@@ -4755,6 +4755,13 @@ body:has(#menu-controller:checked) {
   background-position:center;
 }
 
+.thumbnail_table {
+  height: 50px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
 .thumbnail_card {
   height: 200px;
   background-repeat:no-repeat;

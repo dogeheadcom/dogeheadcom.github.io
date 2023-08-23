@@ -50,6 +50,19 @@
     {{ $cardView := .Params.cardView | default (.Site.Params.list.cardView | default false) }}
     {{ $cardViewScreenWidth := .Site.Params.list.cardViewScreenWidth | default false }}
     {{ $groupByYear := .Params.groupByYear | default ($.Site.Params.list.groupByYear | default false) }}
+    {{ $tableViews := .Params.tableViews | default ($.Site.Params.list.tableViews | default false) }}
+
+    {{if $tableViews }}
+
+    <section class="w-full grid gap-4 sm:grid-cols-1 md:grid-cols-1">
+      {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
+      {{ range .Pages }}
+      {{ partial "article-link/table.html" . }}
+      {{ end }}
+      {{ end }}
+    </section>
+
+    {{else}}
 
     {{ if not $cardView }}
 
@@ -124,6 +137,8 @@
 
       {{ end }}
 
+    {{end}}
+    
     {{end}}
 
   {{ else }}
