@@ -104,3 +104,68 @@ function process_article() {
         remove_like_article(id_likes)
     }
 }
+
+function vote_article(id_likes) {
+    auth.signInAnonymously()
+        .then(() => {
+            var docRef = db.collection('likes').doc(id_likes)
+            docRef.get().then((doc) => {
+                liked_page = true
+                localStorage.setItem(id_likes, true);
+                document.querySelectorAll("span[id='likes_button_heart']")[0].style.display = ""
+                document.querySelectorAll("span[id='likes_button_emtpty_heart']")[0].style.display = "none"
+                document.querySelectorAll("span[id='likes_button_text']")[0].innerText = ""
+                if (doc.exists) {
+                    db.collection('likes').doc(id_likes).update({
+                        likes: firebase.firestore.FieldValue.increment(1)
+                    });
+                } else {
+                    db.collection('likes').doc(id_likes).set({ likes: 1 })
+                }
+            }).catch((error) => {
+                console.log("Error getting document:", error);
+            });
+        })
+        .catch((error) => {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            console.error(errorCode, errorMessage)
+        });
+}
+
+function remove_vote_article(id_likes) {
+    auth.signInAnonymously()
+        .then(() => {
+            var docRef = db.collection('likes').doc(id_likes)
+            docRef.get().then((doc) => {
+                liked_page = false
+                localStorage.removeItem(id_likes);
+                document.querySelectorAll("span[id='likes_button_heart']")[0].style.display = "none"
+                document.querySelectorAll("span[id='likes_button_emtpty_heart']")[0].style.display = ""
+                document.querySelectorAll("span[id='likes_button_text']")[0].innerText = "\xa0不喜欢 投一票"
+                if (doc.exists) {
+                    db.collection('likes').doc(id_likes).update({
+                        likes: firebase.firestore.FieldValue.increment(-1)
+                    });
+                } else {
+                    db.collection('likes').doc(id_likes).set({ likes: 0 })
+                }
+            }).catch((error) => {
+                console.log("Error getting document:", error);
+            });
+        })
+        .catch((error) => {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            console.error(errorCode, errorMessage)
+        });
+}
+
+function process_vote() {
+    var id_likes = oid_likes ? oid_likes.replaceAll("/", "-") : oid_likes
+    if (!liked_page) {
+        vote_article(id_likes)
+    } else {
+        remove_vote_article(id_likes)
+    }
+}

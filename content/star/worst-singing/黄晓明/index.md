@@ -2,35 +2,17 @@
 title: "黄晓明"
 date: 2023-01-01
 draft: false
-description: "Template for creating a recipe for Blowfish theme"
-tags: ["template"]
+showDislikes: true
+description: "唱歌最难听的明星"
+tags: ["唱歌", "难听"]
 ---
 
-Thank you for wanting to contribute to Blowfish's community.
+一首《闹太套》，给观众留下无法磨灭的印象。
 
-## How to start?
-This is a template article that will explain how to create a new article for Blowfish's guide section.
-
-## Clone Blowfish
-Clone this repo with the following command:
+以至于多年后，黄晓明自己又说了调侃自己的话语。
 
 ```bash
-git clone https://github.com/nunocoracao/blowfish.git
+我一个演员，连演技都没有，你还要求我有唱功。
 ```
 
-## Setup your files
-Copy and paste the entire folder where this `.md` file is.
-
-Name it using the following convention `YYYYMM-title`, no white spaces are allowed.
-
-## Write your guide
-Write your guide :)
-
-Use the `img` folder to place your images and use them:
-
-![]()
-
-![Example](img/example.jpg "Image caption")
-
-## Open a PR
-Open a PR and thanks in advance for your contribution.
+## 不喜欢 就投一票

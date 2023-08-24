@@ -34,13 +34,26 @@
 {{ $meta.Add "partials" (slice (partial "meta/views.html" .)) }}
 {{ end }}
 
-{{ if and (not .Params.externalURL) (.Params.showLikes | default (.Site.Params.article.showLikes | default false)) }}
-{{ $meta.Add "partials" (slice (partial "meta/likes.html" .)) }}
+{{ $showDislikes := .Params.showDislikes | default ($.Site.Params.article.showDislikes | default false) }}
+
+{{ if $showDislikes }}
+  {{ if and (not .Params.externalURL) (.Params.showLikes | default (.Site.Params.article.showLikes | default false)) }}
+  {{ $meta.Add "partials" (slice (partial "meta/dislikes.html" .)) }}
+  {{ end }}
+
+  {{ if and (eq $scope "single") (not .Params.externalURL) (.Params.showLikes | default (.Site.Params.article.showLikes | default false)) }}
+  {{ $meta.Add "partials" (slice (partial "meta/dislikes_button.html" .)) }}
+  {{ end }}
+{{ else }}
+  {{ if and (not .Params.externalURL) (.Params.showLikes | default (.Site.Params.article.showLikes | default false)) }}
+  {{ $meta.Add "partials" (slice (partial "meta/likes.html" .)) }}
+  {{ end }}
+
+  {{ if and (eq $scope "single") (not .Params.externalURL) (.Params.showLikes | default (.Site.Params.article.showLikes | default false)) }}
+  {{ $meta.Add "partials" (slice (partial "meta/likes_button.html" .)) }}
+  {{ end }}
 {{ end }}
 
-{{ if and (eq $scope "single") (not .Params.externalURL) (.Params.showLikes | default (.Site.Params.article.showLikes | default false)) }}
-{{ $meta.Add "partials" (slice (partial "meta/likes_button.html" .)) }}
-{{ end }}
 
 {{ if and (eq $scope "single") (.Params.showEdit | default (.Site.Params.article.showEdit | default false)) }}
 {{ $meta.Add "partials" (slice (partial "meta/edit.html" .)) }}
