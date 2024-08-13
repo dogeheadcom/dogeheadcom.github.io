@@ -1,7 +1,7 @@
 languageCode = "CN"
 languageName = "Chinese_Simple"
 weight = 1
-title = "狗头"
+title = "狗头网 - 选择不喜欢，分享不快乐。"
 
 [params]
   displayName = "CN"
@@ -14,10 +14,10 @@ title = "狗头"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
-  name = "狗头"
+  name = "狗头网"
   image = "img/author_avatar.png"
   headline = "[/doge] 保命"
-  bio = "一个你可以大胆选择不喜欢的网站，毕竟我们有[/doge]保命。"
+  bio = "可以大胆选择不喜欢，分享不快乐的网站，毕竟我们有[/doge]保命。"
   links = [
     { email = "mailto:hello@your_domain.com" },
     { link = "https://link-to-some-website.com/" },
