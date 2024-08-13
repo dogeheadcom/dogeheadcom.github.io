@@ -1,7 +1,7 @@
 languageCode = "CN"
 languageName = "Chinese_Simple"
 weight = 1
-title = "DOGEHEAD"
+title = "狗头"
 
 [params]
   displayName = "CN"
@@ -14,7 +14,7 @@ title = "DOGEHEAD"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
-  name = "DOGEHEAD"
+  name = "狗头"
   image = "img/author_avatar.png"
   headline = "[/doge] 保命"
   bio = "一个你可以大胆选择不喜欢的网站，毕竟我们有[/doge]保命。"
